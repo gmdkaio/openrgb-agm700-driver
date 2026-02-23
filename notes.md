@@ -9,5 +9,6 @@ Color bytes are located at offsets 51, 52, and 53 (R, G, B).
 - Red payload: `... 14 FF 00 00 00 FF 00 10 ...`
 - Blue payload: `... 14 00 00 FF 00 00 FF 10 ...`
 
-# Logic
-Figure out how to make this interact with OpenRGB. First i'll do a quick CLI to change the color. 
+# Solution
+
+Integrating with OpenRGB was too complicated, decided to integrate with my matugen config and set up a color change based on my wallpaper. 
